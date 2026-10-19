@@ -1,0 +1,32 @@
+/* 1. Thiết lập chung cho bảng: độ rộng và gộp viền */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp viền kép thành viền đơn */
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Đường viền và đệm khoảng cách cho tất cả các ô */
+table, th, td {
+    border: 1px solid black; /* Đường viền đen liền nét */
+}
+
+th, td {
+    padding: 15px; /* Tạo khoảng trống giúp nội dung thoáng, dễ đọc */
+}
+
+/* 3. Định kiểu hàng tiêu đề (th) */
+th {
+    height: 50px;
+    background-color: #333333; /* Nền tối */
+    color: white;             /* Chữ trắng */
+    text-align: left;         /* Căn lề trái */
+    vertical-align: middle;   /* Căn giữa theo trục dọc */
+}
+
+/* 4. Định kiểu các ô dữ liệu (td) */
+td {
+    background-color: #f2f2f2; /* Nền xám nhạt */
+    color: #333333;             /* Chữ xám đậm */
+    text-align: left;
+    vertical-align: bottom;    /* Căn xuống đáy theo trục dọc theo mẫu bài */
+}
